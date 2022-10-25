@@ -3,12 +3,12 @@
     <ul>
       <li>
         <router-link class="text-red-600 underline" to="/">
-          Liste d'exemple
+          Vos montres
         </router-link>
       </li>
       <li>
         <router-link class="text-red-600 underline" to="/montre/new">
-          Personnaliser une Basket
+          Votre montre sur mesure
         </router-link>
       </li>
     </ul>

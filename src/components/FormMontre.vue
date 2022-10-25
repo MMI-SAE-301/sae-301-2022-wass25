@@ -36,22 +36,45 @@ if (props.id) {
 <template>
     <div>
         <div class="exemple">
-            <MontreCarré class="carousel-item w-64" v-bind="Montres" id="profil" />
-            <MontreRond class="carousel-item w-64" v-bind="Montres" id="dessus" />
+            <MontreCarré class="carousel-item w-64" v-bind="Montres" id="carré" />
+            <MontreRond class="carousel-item w-64" v-bind="Montres" id="rond" />
         </div>
 
         <div>
             <FormKit type="form" v-model="Montres" @submit="upsertMontre" submit-label="Terminé">
                 <div class="selection">
-                    <FormKitListColors name="boitier1" label="Boitier1" />
-                    <FormKitListColors name="boitier2" label="Boitier2" />
-                    <FormKitListColors name="boitier_rond1" label="Boitier rond 1" value="#000000" />
-                    <FormKitListColors name="boitier_rond2" label="Boitier rond 2" />
-                    <FormKitListColors name="ecran" label="Ecran" value="#000000" />
-                    <FormKitListColors name="bracelet" label="Bracelet" value="#000000" />
-                    <FormKitListColors name="texte" label="texte" />
+                    <div class="flex gap-4">
+                        <FormKitListColors name="boitier1" label="Boitier1" />
+                        <FormKit name="boitier1" type="color" />
+                    </div>
+                    <div class="flex gap-4">
+                        <FormKitListColors name="boitier2" label="Boitier2" />
+                        <FormKit name="boitier2" type="color" />
+                    </div>
+                    <div class="flex gap-4">
+                        <FormKitListColors name="boitier_rond1" label="Boitier rond 1" value="#000000" />
+                        <FormKit name="boitier_rond1" type="color" />
+                    </div>
+                    <div class="flex gap-4">
+                        <FormKitListColors name="boitier_rond2" label="Boitier rond 2" />
+                        <FormKit name="boitier_rond2" type="color" />
+                    </div>
+                    <div class="flex gap-4">
+                        <FormKitListColors name="ecran" label="Ecran" value="#000000" />
+                        <FormKit name="ecran" type="color" />
+                    </div>
+                    <div class="flex gap-4">
+                        <FormKitListColors name="bracelet" label="Bracelet" value="#000000" />
+                        <FormKit name="bracelet" type="color" />
+                    </div>
+                    <div class="flex gap-4">
+                        <FormKitListColors name="texte" label="texte" />
+                        <FormKit name="texte" type="color" />
+                    </div>
                 </div>
             </FormKit>
         </div>
     </div>
 </template>
+
+
