@@ -1,5 +1,10 @@
 <template>
   <nav>
+    <li>
+      <router-link class="text-red-600 underline" to="/Accueil">
+        Accueil
+      </router-link>
+    </li>
     <ul>
       <li>
         <router-link class="text-red-600 underline" to="/">
@@ -7,8 +12,13 @@
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="/montre/new">
+        <router-link class="text-red-600 underline" to="/montre/id">
           Votre montre sur mesure
+        </router-link>
+      </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/Connexion">
+          S'authentifier
         </router-link>
       </li>
     </ul>
@@ -21,10 +31,4 @@
 
   </Suspense>
 
-  <LoginLogout></LoginLogout>
-
 </template>
-
-<script setup lang="ts">
-import LoginLogout from './components/LoginLogout.vue'
-</script>
