@@ -22,7 +22,7 @@
             <div class="oui2">
                 <img class="droite" src="../../public/images/montre_droit.png" alt="">
                 <p class="vos1">VOS</p>
-                <P class="vos2">MONTRES</P>
+                <p class="vos2">MONTRES</p>
             </div>
         </router-link>
 

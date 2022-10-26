@@ -14,16 +14,24 @@ import { user } from "@/supabase";
 
 <template>
   <link rel="stylesheet" href="../index.css">
-  <div>
-    <Router-link to="/Accueil">
-      <img src="../../public/images/logo noir.png" alt="">
-    </Router-link>
+  <div class="flex justify-between m-4">
+    <div>
+      <Router-link to="/Accueil">
+        <img class="accueil" src="../../public/images/logo noir.png" alt="">
+      </Router-link>
+    </div>
+    <div class="mt-auto mb-auto">VOS MONTRES</div>
+    <div class="mt-auto mb-auto">
+      <Router-link to="/Connexion">
+        <img class="accueil" src="../../public/images/icone.png" alt="">
+      </Router-link>
+    </div>
   </div>
   <section v-if="user">
     <h2 class="exemple">
-      Vos dernières création
+      VOS DERNIERES CREATIONS
     </h2>
-    <ListeMontre class="exemple" :max="5" />
+    <ListeMontre class="flex" :max="5" />
   </section>
 
 

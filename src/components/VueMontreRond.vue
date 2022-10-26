@@ -3,13 +3,13 @@
 import type { Montre } from "@/types"
 
 withDefaults(defineProps<Montre>(), {
-    baracelet: "white",
+    bracelet: "white",
     boitier1: "white",
     boitier2: "white",
     boitier3: "white",
     boitier_rond: "white",
-    ecran: "black",
-    texte: "white"
+    ecran: "white",
+    texte: "white",
 
 });
 

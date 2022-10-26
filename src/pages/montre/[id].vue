@@ -2,12 +2,37 @@
 import FormMontre from "../../components/FormMontre.vue";
 
 
+
 defineProps({ id: String });
 </script>
 
 
 
 <template>
-    <FormMontre :id="id" />
+    <div class="flex justify-between m-4">
+        <div>
+            <Router-link to="/Accueil">
+                <img class="accueil" src="../../public/images/logo noir.png" alt="">
+            </Router-link>
+        </div>
+        <div class="mt-auto mb-auto">VOTRE MONTRE SUR MESURE</div>
+        <div class="mt-auto mb-auto">
+            <Router-link to="/Connexion">
+                <img class="accueil" src="../../public/images/icone.png" alt="">
+            </Router-link>
+        </div>
+    </div>
+    <div class="flex">
+        <div>
+            <img class="main" src="../../../public/images/main.png" alt="">
+        </div>
+        <div>
+            <FormMontre :id="id" />
+        </div>
+    </div>
+    <p class="previs">PREVISUALISATION</p>
+    <div class="trait">
+
+    </div>
 
 </template>
