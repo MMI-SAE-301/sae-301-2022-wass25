@@ -12,13 +12,13 @@ defineProps({ id: String });
     <div class="flex justify-between m-4">
         <div>
             <Router-link to="/Accueil">
-                <img class="accueil" src="../../public/images/logo noir.png" alt="">
+                <img class="accueil" src="../../../public/images/logo noir.png" alt="">
             </Router-link>
         </div>
         <div class="mt-auto mb-auto">VOTRE MONTRE SUR MESURE</div>
         <div class="mt-auto mb-auto">
             <Router-link to="/Connexion">
-                <img class="accueil" src="../../public/images/icone.png" alt="">
+                <img class="accueil" src="../../../public/images/icons8-user-menu-male-50.png" alt="">
             </Router-link>
         </div>
     </div>

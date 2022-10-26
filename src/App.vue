@@ -16,6 +16,7 @@
       <div>
         <img class="accueil" src="../public/images/Calque 1.png" alt="">
       </div>
+      <div class="traitblanc"></div>
     </div>
   </footer>
 

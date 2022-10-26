@@ -8,7 +8,7 @@ const props = defineProps<{
 }>();
 
 let { data: Montre, error } = await supabase
-    .from("dernieresmontres")
+    .from("Montre")
     .select("*")
     .limit(props.max ?? 100)
 
@@ -19,12 +19,10 @@ if (error) {
 
 <template>
     <ul>
-        <li v-for="montres in Montre" :key="montres.id_montre">
-            <router-link :to="{
-                name: 'montre-id', params: { id: montres.id_montre }
-            }">
-                <div class="carreee">
-                    <MontreRond class="present" v-bind="montres" />
+        <li class="text-center justify-center" v-for="montres in Montre" :key="montres.id_montre">
+            <router-link :to="{ params: { id: montres.id_montre } }">
+                <div class="">
+                    <MontreRond class="petit" v-bind="montres" />
                 </div>
             </router-link>
         </li>
