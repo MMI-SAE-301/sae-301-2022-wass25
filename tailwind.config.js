@@ -5,6 +5,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      Sweet: ["./public/polices/"]
+    }
   },
   plugins: [
     require("@tailwindcss/typography"),

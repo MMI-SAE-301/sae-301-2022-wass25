@@ -2,6 +2,127 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+body {
+    font-family: 'Sweet Sans Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sweet Sans Pro Regular'), url('/public/polices/SweetSansProRegular') format('woff');
+    width: 100%;
+}
+
 div.formkit-outer {
     margin-top: auto;
+}
+
+.carré {
+    display: flex;
+    gap: 5%;
+    font-size: 270%;
+    font-family: 'Sweet Sans Pro Regular';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Sweet Sans Pro Bold'), url('/public/polices/SweetSansProBold') format('woff');
+    width: 100%;
+}
+
+.oui {
+    height: 508px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #000000 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    transition: 1.4s;
+    margin-top: -130px;
+
+}
+
+.oui:hover {
+    transform: scale(1.1);
+}
+
+.oui1 {
+
+    height: 406px;
+    width: 369px;
+    background: linear-gradient(180deg, rgba(107, 107, 107, 0) 0%, #000000 100%);
+    color: white;
+    transition: 1.4s;
+    font-size: 70%;
+}
+
+.oui1:hover {
+    transform: scale(1.1);
+}
+
+.oui2 {
+
+    height: 508px;
+    width: 500px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #000000 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    transition: 1.4s;
+    margin-top: -68px;
+}
+
+.oui2:hover {
+    transform: scale(1.1);
+    margin-right: auto;
+}
+
+.gauche {
+    height: 750px;
+    margin-top: -107px;
+    margin-left: 53px;
+}
+
+
+img.milieu {
+    margin-top: 57px;
+    margin-left: -49px;
+    width: 683px;
+}
+
+img {
+    max-width: max-content;
+}
+
+.droite {
+    margin-top: -44px;
+    margin-left: -58px;
+    width: 550px;
+}
+
+.connexion {
+    text-align: center;
+    margin-top: -35px;
+
+}
+
+.vos1 {
+    margin-top: -90px;
+    margin-left: 5%;
+}
+
+.vos2 {
+    margin-left: 5%;
+}
+
+.votre {
+    margin-top: -600px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.montre {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.sur {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.mesure {
+    margin-left: 50px;
 }

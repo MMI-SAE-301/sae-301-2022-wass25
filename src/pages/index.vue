@@ -14,7 +14,11 @@ import { user } from "@/supabase";
 
 <template>
   <link rel="stylesheet" href="../index.css">
-
+  <div>
+    <Router-link to="/Accueil">
+      <img src="../../public/images/logo noir.png" alt="">
+    </Router-link>
+  </div>
   <section v-if="user">
     <h2 class="exemple">
       Vos dernières création
