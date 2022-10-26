@@ -12,11 +12,18 @@
       <div>
         <img class="accueil" src="../public/images/logo blanc.png" alt="">
       </div>
-      <div class="mt-auto mb-auto">COPYRIGHT <br> MMI MONTBELIARD</div>
+      <div class="mt-auto mb-auto text-center">© COPYRIGHT <br> MMI MONTBELIARD</div>
       <div>
         <img class="accueil" src="../public/images/Calque 1.png" alt="">
       </div>
       <div class="traitblanc"></div>
+      <div class="mt-auto mb-auto text-center">CONDITTIONS D'UTILISATION <br> <br> POLITIQUE DE CONFIDENTIALITE</div>
+      <div class="traitblanc"></div>
+      <div class="mt-auto mb-auto text-center">FACEBOOK <br> <br> GOOGLE</div>
+      <div class="traitblanc"></div>
+      <div class="mt-auto mb-auto text-center">2022 SITE WEB PAR WASSEL AZZOUZ</div>
+      <div class="traitblanc"></div>
+      <div class="mt-auto mb-auto text-center">CREER POUR LA SAE 301</div>
     </div>
   </footer>
 

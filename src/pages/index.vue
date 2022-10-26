@@ -23,7 +23,7 @@ import { user } from "@/supabase";
     </div>
     <div class="mt-auto mb-auto">
       <Router-link to="/Connexion">
-        <img class="accueil" src="../../public/images/icone.png" alt="">
+        <img class="accueil" src="../../public/images/icons8-user-menu-male-50.png" alt="">
       </Router-link>
     </div>
   </div>

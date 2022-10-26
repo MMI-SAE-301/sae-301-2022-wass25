@@ -95,9 +95,13 @@ img {
 }
 
 .connexion {
-    text-align: center;
-    margin-top: -35px;
-
+    width: 511px;
+    height: 354px;
+    margin-top: 87px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -90px;
+    background-color: #000000;
 }
 
 .vos1 {
@@ -240,7 +244,7 @@ footer {
     color: white;
     font-family: 'Sweet Sans Pro Light';
     font-style: normal;
-    font-weight: normal;
+    font-size: smaller;
     src: local('Sweet Sans Pro Light'), url('/public/polices/SweetSansProLight.woff') format('woff');
 }
 
@@ -248,6 +252,7 @@ footer {
     display: flex;
     padding: 20px;
     gap: 30px;
+    justify-content: center;
 }
 
 .present {
@@ -364,9 +369,27 @@ h2 {
 
 .traitblanc {
     background-color: #ffffff;
-    width: 2px;
-    height: 300px;
-    margin-left: 162px;
+    width: 1px;
+    height: 108px;
     margin-top: 7px;
 
+}
+
+#facebook {
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    background: none;
+    color: white;
+    gap: 30px;
+}
+
+
+.fb {
+    width: 55px;
+}
+
+.fb1 {
+    margin: auto;
 }

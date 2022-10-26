@@ -20,7 +20,9 @@ if (error) {
 <template>
     <ul>
         <li class="text-center justify-center" v-for="montres in Montre" :key="montres.id_montre">
-            <router-link :to="{ params: { id: montres.id_montre } }">
+            <router-link :to="{
+                name: 'montre-id', params: { id: montres.id_montre }
+            }">
                 <div class="">
                     <MontreRond class="petit" v-bind="montres" />
                 </div>
