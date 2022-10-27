@@ -95,6 +95,7 @@ img {
 }
 
 .connexion {
+    border-radius: 8px;
     width: 511px;
     height: 354px;
     margin-top: 87px;
@@ -152,9 +153,9 @@ img {
 
 .montree {
     width: 510px;
-    margin-left: -670px;
+    margin-left: -894px;
     position: absolute;
-    margin-top: 54px;
+    margin-top: -20px;
 }
 
 .selection {
@@ -182,7 +183,18 @@ img {
 }
 
 #input_15 {
-    margin-left: -618px;
+    margin-left: -543px;
+    border: solid;
+    border-width: 1px;
+    width: 219px;
+    height: 73px;
+    border-radius: 36px;
+    box-shadow: 7px 7px 5px rgb(87, 87, 87);
+    transition: 1.4s
+}
+
+#input_31 {
+    margin-left: -543px;
     border: solid;
     border-width: 1px;
     width: 219px;
@@ -383,6 +395,17 @@ h2 {
     background: none;
     color: white;
     gap: 30px;
+    padding-top: 89px;
+}
+
+#google {
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    background: none;
+    color: white;
+    gap: 30px;
 }
 
 
@@ -392,4 +415,15 @@ h2 {
 
 .fb1 {
     margin: auto;
+}
+
+#tab>button:focus {
+    color: #000000;
+    transform: scale(1.1);
+
+}
+
+.connexion1 {
+    text-align: center;
+    margin-top: -30px;
 }

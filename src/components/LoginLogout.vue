@@ -7,6 +7,12 @@ async function signInWithFacebook() {
     })
 }
 
+async function signInWithGoogle() {
+    const { data, error } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+    })
+}
+
 async function signout() {
     const { error } = await supabase.auth.signOut()
 }
@@ -24,7 +30,7 @@ async function signout() {
         <button class="invisible" id="facebook" v-if="user" @pointerdown="supabase.auth.signOut()">
             Se déconnecter ({{ user.email }})
         </button>
-        <button id="facebook" v-else @pointerdown="supabase.auth.signIn({ provider: 'google' })">
+        <button id="google" v-else @pointerdown="supabase.auth.signIn({ provider: 'google' })">
             <p class="fb1"> SE CONNECTER AVEC GOOGLE </p><img class="fb" src="../../public/images/google.png" alt="" />
         </button>
 

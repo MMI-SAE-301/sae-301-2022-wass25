@@ -12,7 +12,7 @@
         <router-link to="/Connexion">
             <div class="oui1">
                 <img class="milieu" src="../../public/images/connexion.png" alt="">
-                <p class="connexion">S'AUTHENTIFIER</p>
+                <p class="connexion1">S'AUTHENTIFIER</p>
             </div>
         </router-link>
         <router-link to="/">
