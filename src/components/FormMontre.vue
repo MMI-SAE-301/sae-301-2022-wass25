@@ -14,6 +14,7 @@ import type { Materiaux } from "@/types";
 const props = defineProps(["id"]);
 const Montres = ref<Montre>({});
 
+// @ts-ignore
 async function upsertMontre(dataForm, node) {
     dataForm.date = Date.now()
     const { data, error } = await supabase.from("Montre").upsert(dataForm);
