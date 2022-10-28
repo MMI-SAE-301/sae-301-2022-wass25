@@ -2,9 +2,9 @@
 
 - **Nom :**Azzouz
 - **Prénom :**Wassel
-- **URL maquette Figma:**
+- **URL maquette Figma:**https://www.figma.com/file/a6Ku4suOa5wFXCkh3LEV4E/Untitled?node-id=0%3A1
 - **URL publique du site :**
-- **URL projet Supabase :**
+- **URL projet Supabase :**https://lepghteltabbbtesdkre.supabase.co
   - [x ] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
 # Auto-évaluation
