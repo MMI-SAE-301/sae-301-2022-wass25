@@ -26,7 +26,7 @@
   </div>
   <div class="bande1">
     <h1 class="m-16 pt-7 text-4xl font-bold">UNE QUALITE AU RENDEZ VOUS</h1>
-    <div class="flex">
+    <div class="flex justify-center">
       <p class="info">AVEC TIKTAK, NOUS VOULONS QUE NOS CLIENTS ACHETES LE PRODUITS QU’IL LEUR CONVIENT.
         <br>
         <br>
