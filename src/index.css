@@ -153,9 +153,10 @@ img {
 
 .montree {
     width: 510px;
-    margin-left: -894px;
+    margin-left: -976px;
     position: absolute;
     margin-top: -20px;
+    top: 301px;
 }
 
 .selection {
@@ -163,7 +164,7 @@ img {
 }
 
 .previs {
-    margin-top: -148px;
+    margin-top: -240px;
     margin-left: 242px;
     font-size: x-large;
     color: black;
@@ -182,7 +183,9 @@ img {
     margin-top: 7px;
 }
 
-#input_15 {
+#input_17 {
+    position: absolute;
+    margin-top: -169px;
     margin-left: -543px;
     border: solid;
     border-width: 1px;
@@ -191,6 +194,14 @@ img {
     border-radius: 36px;
     box-shadow: 7px 7px 5px rgb(87, 87, 87);
     transition: 1.4s
+}
+
+#gh>ul {
+    opacity: 0;
+}
+
+#util {
+    opacity: 0;
 }
 
 #input_31 {
@@ -226,16 +237,24 @@ button,
     font-style: normal;
     font-weight: normal;
     src: local('Sweet Sans Pro Light'), url('/public/polices/SweetSansProLight.woff') format('woff');
+    text-align: center;
 
+
+}
+
+.h {
+    visibility: hidden;
 }
 
 #tab>button {
     color: rgb(127, 127, 127);
     background: transparent;
+    border: none;
 }
 
 #tab>button:hover {
     color: black;
+    border: none;
 }
 
 .formulaire {
@@ -420,10 +439,16 @@ h2 {
 #tab>button:focus {
     color: #000000;
     transform: scale(1.1);
+    border: none;
 
 }
 
 .connexion1 {
     text-align: center;
     margin-top: -30px;
+}
+
+#grannd>div {
+    margin-top: auto;
+    margin-bottom: auto;
 }

@@ -36,6 +36,14 @@ import { user } from "@/supabase";
     <h2 class="text-center pt-16 -mb-10">TOUTES VOS MONTRES</h2>
     <ListeMontreToute class="grid grid-cols-5 gap-1 pt-20 -mb-9" :max="40" />
   </section>
+  <section v-else>
+    <router-link to="/Connexion">
+      <h2 class="text-center -mb-10 mb-60 mt-56 hover:scale-150 transition duration-700">
+        CONNECTER VOUS POUR VOIR VOS MONTRES
+      </h2>
+    </router-link>
+
+  </section>
 
 
 </template>

@@ -2,19 +2,21 @@
 import { supabase } from "@/supabase";
 import MontreCarré from "./VueMontreCarré.vue";
 import MontreRond from "./VueMontreRond.vue";
+import { user } from "@/supabase";
 
 const props = defineProps<{
     max?: number;
 }>();
 
 let { data: Montre, error } = await supabase
-    .from("dernieresmontres")
+    .from("lastmontre")
     .select("*")
     .limit(props.max ?? 100)
 
 if (error) {
     console.log("erreur données Montre", { error });
 }
+
 </script>
 
 <template>
@@ -23,8 +25,13 @@ if (error) {
             <router-link :to="{
                 name: 'montre-id', params: { id: montres.id_montre }
             }">
-                <div class="carreee">
-                    <MontreRond class="present" v-bind="montres" />
+                <div v-if="montres.id_user == user.id" class="carreee">
+                    <div v-if="montres.forme == 'rond'" class="carreee">
+                        <MontreRond class="present" v-bind="montres" />
+                    </div>
+                    <div v-else class="carreee">
+                        <MontreCarré class="present" v-bind="montres" />
+                    </div>
                 </div>
             </router-link>
         </li>

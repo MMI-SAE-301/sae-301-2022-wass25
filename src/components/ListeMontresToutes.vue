@@ -2,10 +2,12 @@
 import { supabase } from "@/supabase";
 import MontreCarré from "./VueMontreCarré.vue";
 import MontreRond from "./VueMontreRond.vue";
+import { user } from "@/supabase";
 
 const props = defineProps<{
     max?: number;
 }>();
+
 
 let { data: Montre, error } = await supabase
     .from("Montre")
@@ -23,8 +25,11 @@ if (error) {
             <router-link :to="{
                 name: 'montre-id', params: { id: montres.id_montre }
             }">
-                <div class="">
+                <div v-if="montres.forme == 'rond'">
                     <MontreRond class="petit" v-bind="montres" />
+                </div>
+                <div v-else class="carreee">
+                    <MontreCarré class="petit" v-bind="montres" />
                 </div>
             </router-link>
         </li>

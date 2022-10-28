@@ -15,7 +15,7 @@ defineProps({ id: String });
                 <img class="accueil" src="../../../public/images/logo noir.png" alt="">
             </Router-link>
         </div>
-        <div class="mt-auto mb-auto">VOTRE MONTRE SUR MESURE</div>
+        <div class="mt-auto mb-auto text-xl">VOTRE MONTRE SUR MESURE</div>
         <div class="mt-auto mb-auto">
             <Router-link to="/Connexion">
                 <img class="accueil" src="../../../public/images/icons8-user-menu-male-50.png" alt="">

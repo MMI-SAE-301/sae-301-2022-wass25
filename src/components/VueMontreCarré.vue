@@ -7,7 +7,7 @@ withDefaults(defineProps<Montre>(), {
     boitier1: "white",
     boitier2: "white",
     ecran: "white",
-    texte: "white"
+    texte: "white",
 
 });
 </script>

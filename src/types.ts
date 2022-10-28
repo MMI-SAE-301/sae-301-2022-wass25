@@ -1,4 +1,5 @@
 
+
 export interface Montre {
   boitier1: string,
   boitier2: string,
@@ -7,7 +8,18 @@ export interface Montre {
   boitier_rond1: string,
   boitier_rond2: string,
   ecran: string,
-  texte: string
+  texte: string,
+  forme: string,
+
+}
+
+export interface Materiaux {
+  libelle: string,
+}
+
+export const Forme = {
+  "carre": "carre",
+  "rond": "rond"
 
 }
 
