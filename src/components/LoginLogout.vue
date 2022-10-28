@@ -1,18 +1,6 @@
 <script setup lang="ts">
 import { supabase, user, } from '../supabase'
 
-async function signInWithFacebook() {
-    const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: 'facebook',
-    })
-}
-
-async function signInWithGoogle() {
-    const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: 'google',
-    })
-}
-
 async function signout() {
     const { error } = await supabase.auth.signOut()
 }
