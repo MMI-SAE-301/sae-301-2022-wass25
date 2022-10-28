@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { supabase, user } from '../supabase'
+import { supabase, user, } from '../supabase'
 
 async function signInWithFacebook() {
     const { data, error } = await supabase.auth.signInWithOAuth({

@@ -17,7 +17,7 @@ import { user } from "@/supabase";
     <link rel="stylesheet" href="../index.css">
     <div class="flex justify-between m-4">
         <div>
-            <Router-link to="/Accueil">
+            <Router-link to="/">
                 <img class="accueil" src="/images/logo_noir.png" alt="">
             </Router-link>
         </div>

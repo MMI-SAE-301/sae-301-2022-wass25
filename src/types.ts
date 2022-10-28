@@ -1,15 +1,13 @@
-
-
 export interface Montre {
-  boitier1: string,
-  boitier2: string,
-  boitier3: string,
-  bracelet: string,
-  boitier_rond1: string,
-  boitier_rond2: string,
-  ecran: string,
-  texte: string,
-  forme: string,
+  boitier1?: string,
+  boitier2?: string,
+  boitier3?: string,
+  bracelet?: string,
+  boitier_rond1?: string,
+  boitier_rond2?: string,
+  ecran?: string,
+  texte?: string,
+  forme?: string,
 
 }
 

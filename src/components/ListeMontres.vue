@@ -25,7 +25,7 @@ if (error) {
             <router-link :to="{
                 name: 'montre-id', params: { id: montres.id_montre }
             }">
-                <div v-if="montres.id_user == user.id" class="carreee">
+                <div v-if="montres.id_user == user!.id" class="carreee">
                     <div v-if="montres.forme == 'rond'" class="carreee">
                         <MontreRond class="present" v-bind="montres" />
                     </div>

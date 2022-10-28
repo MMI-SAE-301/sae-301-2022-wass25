@@ -2,15 +2,16 @@
 
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue';
 import type { Montre } from "@/types";
-import type { Forme } from "@/types";
 import { ref } from "vue";
+
 import { supabase } from "@/supabase";
 import { user } from "@/supabase";
 import MontreCarré from "./VueMontreCarré.vue";
 import MontreRond from "./VueMontreRond.vue";
 import FormKitListColors from "./FormKitListColors.vue";
-import type { Materiaux } from "@/types";
+import { useRouter } from "vue-router";
 
+const router = useRouter();
 const props = defineProps(["id"]);
 const Montres = ref<Montre>({});
 
@@ -136,7 +137,7 @@ const materiauxx = Matériaux?.map((Matériaux) => ({
 
                 </TabPanels>
             </TabGroup>
-            <FormKit id="util" name="id_user" type="radio" :value=user.id />
+            <FormKit id="util" name="id_user" type="radio" :value=user!.id />
 
         </FormKit>
     </div>
