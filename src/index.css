@@ -11,7 +11,7 @@ body {
     font-family: 'Sweet Sans Pro Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Sweet Sans Pro Regular'), url('/public/polices/SweetSansProRegular') format('woff');
+    src: local('Sweet Sans Pro Regular'), url('/polices/SweetSansProRegular') format('woff2');
     width: 100%;
 }
 
@@ -26,7 +26,7 @@ div.formkit-outer {
     font-family: 'Sweet Sans Pro Regular';
     font-style: normal;
     font-weight: bold;
-    src: local('Sweet Sans Pro Bold'), url('/public/polices/SweetSansProBold') format('woff');
+    src: local('Sweet Sans Pro Bold'), url('/polices/SweetSansProBold') format('woff2');
     width: 100;
 }
 
@@ -171,7 +171,7 @@ img {
     font-family: 'Sweet Sans Pro Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Sweet Sans Pro Light'), url('/public/polices/SweetSansProLight.woff') format('woff');
+    src: local('Sweet Sans Pro Light'), url('/polices/SweetSansProLight.woff') format('woff2');
 
 }
 
@@ -236,7 +236,7 @@ button,
     font-family: 'Sweet Sans Pro Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Sweet Sans Pro Light'), url('/public/polices/SweetSansProLight.woff') format('woff');
+    src: local('Sweet Sans Pro Light'), url('/polices/SweetSansProLight.woff') format('woff2');
     text-align: center;
 
 
@@ -275,7 +275,7 @@ footer {
     font-family: 'Sweet Sans Pro Light';
     font-style: normal;
     font-size: smaller;
-    src: local('Sweet Sans Pro Light'), url('/public/polices/SweetSansProLight.woff') format('woff');
+    src: local('Sweet Sans Pro Light'), url('/polices/SweetSansProLight.woff') format('woff2');
 }
 
 .fin {
@@ -319,7 +319,7 @@ h2 {
     font-family: 'Sweet Sans Pro Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Sweet Sans Pro Light'), url('/public/polices/SweetSansProLight.woff') format('woff');
+    src: local('Sweet Sans Pro Light'), url('/polices/SweetSansProLight.woff') format('woff2');
 }
 
 .bande1 {
@@ -335,7 +335,7 @@ h2 {
     font-family: 'Sweet Sans Pro Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Sweet Sans Pro Light'), url('/public/polices/SweetSansProLight.woff') format('woff');
+    src: local('Sweet Sans Pro Light'), url('/polices/SweetSansProLight.woff') format('woff2');
 
 }
 
