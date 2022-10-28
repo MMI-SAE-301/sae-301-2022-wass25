@@ -1,24 +1,24 @@
 
 <template>
   <div class="">
-    <img class="flex justify-center m-auto w-32 mb-4 mt-24" src="../../public/images/logo_noir.png" alt="">
+    <img class="flex justify-center m-auto w-32 mb-4 mt-24" src="/images/logo_noir.png" alt="">
   </div>
   <div class="carré">
     <router-link to="/montre/id">
       <div class="oui2">
-        <img class="gauche" src="../../public/images/montre_gauche.png" alt="">
+        <img class="gauche" src="/images/montre_gauche.png" alt="">
         <p class="votre">VOTRE <br>MONTRE <br>SUR <br>MESURE</p>
       </div>
     </router-link>
     <router-link to="/Connexion">
       <div class="oui1">
-        <img class="milieu" src="../../public/images/connexion.png" alt="">
+        <img class="milieu" src="/images/connexion.png" alt="">
         <p class="connexion1">S'AUTHENTIFIER</p>
       </div>
     </router-link>
     <router-link to="/listeMontre">
       <div class="oui2">
-        <img class="droite" src="../../public/images/montre_droit.png" alt="">
+        <img class="droite" src="/images/montre_droit.png" alt="">
         <p class="vos1">VOS</p>
         <p class="vos2">MONTRES</p>
       </div>
@@ -42,7 +42,7 @@
         <br>
         ALORS LANCEZ VOUS DES MAINTENANT ET PERSONNALISER VOTRE TIKTAK !
       </p>
-      <img class="illustration" src="../../public/images/ill.png" alt="">
+      <img class="illustration" src="/images/ill.png" alt="">
     </div>
   </div>
   <p class="info2">
@@ -51,7 +51,7 @@
   </p>
   <div class="flex">
     <div class="orange">
-      <img class="lestrois" src="../../public/images/les3.png" alt="">
+      <img class="lestrois" src="/images/les3.png" alt="">
     </div>
     <div class="noir">
       <h1 class="ml-20 pt-7 text-4xl font-bold">COLLECTIONER LES</h1>

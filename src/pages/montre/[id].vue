@@ -24,7 +24,7 @@ defineProps({ id: String });
     </div>
     <div class="flex">
         <div>
-            <img class="main" src="../../../public/images/main.png" alt="">
+            <img class="main" src="/images/main.png" alt="">
         </div>
         <div>
             <FormMontre :id="id" />

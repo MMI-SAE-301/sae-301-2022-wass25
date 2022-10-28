@@ -10,11 +10,11 @@
   <footer>
     <div class="fin">
       <div>
-        <img class="accueil" src="../public/images/logo_blanc.png" alt="">
+        <img class="accueil" src="/images/logo_blanc.png" alt="">
       </div>
       <div class="mt-auto mb-auto text-center">© COPYRIGHT <br> MMI MONTBELIARD</div>
       <div>
-        <img class="accueil" src="../public/images/mmi1.png" alt="">
+        <img class="accueil" src="/images/mmi1.png" alt="">
       </div>
       <div class="traitblanc"></div>
       <div class="mt-auto mb-auto text-center">CONDITTIONS D'UTILISATION <br> <br> POLITIQUE DE CONFIDENTIALITE</div>

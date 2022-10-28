@@ -2,12 +2,11 @@
 import { colors } from "@/types";
 defineProps<{
     name: string,
-    label: string,
 }>();
 
 </script>
 <template>
-    <FormKit :name="name" :label="label" value="#FFFFFF" type="radio" :options="colors" :sections-schema="{
+    <FormKit :name="name" value="#FFFFFF" type="radio" :options="colors" :sections-schema="{
         inner: { $el: null },
         decorator: { $el: null },
     }" input-class="peer sr-only" options-class="option">

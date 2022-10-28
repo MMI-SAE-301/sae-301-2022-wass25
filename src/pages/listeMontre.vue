@@ -18,12 +18,12 @@ import { user } from "@/supabase";
     <div class="flex justify-between m-4">
         <div>
             <Router-link to="/Accueil">
-                <img class="accueil" src="../../public/images/logo_noir.png" alt="">
+                <img class="accueil" src="/images/logo_noir.png" alt="">
             </Router-link>
         </div>
         <div class="mt-auto mb-auto">
             <Router-link to="/Connexion">
-                <img class="accueil" src="../../public/images/icons8-user-menu-male-50.png" alt="">
+                <img class="accueil" src="/images/icons8-user-menu-male-50.png" alt="">
             </Router-link>
         </div>
     </div>
