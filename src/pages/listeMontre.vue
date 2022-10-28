@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
-import MontreCarré from "../../src/components/VueMontreCarré.vue";
-import MontreRond from "../../src/components/VueMontreRond.vue"
+import MontreCarré from "../components/VueMontreCarré.vue";
+import MontreRond from "../components/VueMontreRond.vue"
 import ListeMontre from "../components/ListeMontres.vue"
 import ListeMontreToute from "../components/ListeMontresToutes.vue"
 import { user } from "@/supabase";
@@ -18,7 +18,7 @@ import { user } from "@/supabase";
     <div class="flex justify-between m-4">
         <div>
             <Router-link to="/Accueil">
-                <img class="accueil" src="../../public/images/logo noir.png" alt="">
+                <img class="accueil" src="../../public/images/logo_noir.png" alt="">
             </Router-link>
         </div>
         <div class="mt-auto mb-auto">

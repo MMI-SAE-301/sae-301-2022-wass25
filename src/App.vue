@@ -10,7 +10,7 @@
   <footer>
     <div class="fin">
       <div>
-        <img class="accueil" src="../public/images/logo blanc.png" alt="">
+        <img class="accueil" src="../public/images/logo_blanc.png" alt="">
       </div>
       <div class="mt-auto mb-auto text-center">© COPYRIGHT <br> MMI MONTBELIARD</div>
       <div>
