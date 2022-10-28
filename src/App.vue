@@ -14,7 +14,7 @@
       </div>
       <div class="mt-auto mb-auto text-center">© COPYRIGHT <br> MMI MONTBELIARD</div>
       <div>
-        <img class="accueil" src="../public/images/Calque 1.png" alt="">
+        <img class="accueil" src="../public/images/mmi1.png" alt="">
       </div>
       <div class="traitblanc"></div>
       <div class="mt-auto mb-auto text-center">CONDITTIONS D'UTILISATION <br> <br> POLITIQUE DE CONFIDENTIALITE</div>
