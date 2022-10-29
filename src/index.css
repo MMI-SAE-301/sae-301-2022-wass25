@@ -19,7 +19,6 @@ div.formkit-outer {
 }
 
 .carré {
-    justify-content: space-between;
     display: flex;
     font-size: 270%;
     font-family: 'Sweet Sans Pro Regular';
